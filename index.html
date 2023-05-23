@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Sports</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="top-nav">
+            <h1>Live Scores</h1>
+            <div class="top-scores-left-1">
+                <span>SJC Ninjas - 314</span>
+                <span>NS Pirates - 159</span>
+            </div>
+            <div class="top-scores-left-2">
+                <span>CHI Samurai - 0</span>
+                <span>TUL Wizards - 0</span>
+            </div>            
+            <div class="top-scores-right-1">
+                <span>BOS Hackers - 13</span>
+                <span>TYO Youkai - 37</span>
+            </div> 
+            <div class="top-scores-right-2">
+                <span>BOI Knights - 5</span>
+                <span>SEA Sea Lions - 11</span>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <img src="images/DSNN_sign.png" alt="DSNN" style="width:150px;height:40px;">
+            <div class="sports-fields">
+                <span>Football</span>
+                <span>Basketball</span>
+                <span>Baseball</span>
+                <span>Soccer</span>
+                <span>More...</span>
+            </div>
+            <div class="tools">
+                <img src="images/search-light.png" alt="search" style="width:25px;height:25px;">
+                <img src="images/hamburger-light.png" alt="hlight" style="width:25px;height:25px;">
+                <img src="images/user-circle-light.png" alt="circle" style="width:25px;height:25px;">
+            </div>
+        </div>
+        <div class="main">
+            <div class="col-top-stories">
+                <div class="left-side">
+                    <div id="top-stories">
+                        <p style="font-size:120%;">Top Stories</p>
+                        <hr style="margin: 8px;">
+                        <P style="padding-right:10px;"> Ninjas up big in 5th</P>
+                        <p>Best sports cities</p>
+                        <p>Choi joins Hall of Fame</p>   
+                        <p>Torunament underway</p>   
+                        <p>Samurai at Wizards...</p>                        
+                    </div>
+                </div>
+                <div class="bottom-items-1">
+                    <p style="margin: 10px;">Customize your DSNN</p>
+                    <button style="margin-left:40px;background-color:dodgerblue">Sign In</button>
+                    <button>Sign Up</button>
+                </div>
+                <div class="bottom-items-2">
+                    <p style="margin: 10px;">Never miss a play</p>
+                    <button onclick="hide(this)" style="margin-left:40px;background-color:yellow;width:80px;">Subscribe</button>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="team-matchup">
+                    <div class="match-lead">
+                        <img style="width:25px;height:25px;" src="images/live_dot.png" alt="dot" >
+                        <p style="color: rgb(207,42,40);font-size: 150%;">Live <span style="color:black;margin-left:10px;"> Ninjas leading Pirates</span></p>
+                    </div>
+                    <div class="group-info">
+                        <div class="team-left">
+                            <img src="images/sjc-ninjas.png" alt="Ninjas" style="width:100px;height:100px;">
+                            <p>San Jose</p>
+                            <p style="font-size: 200%;margin-bottom:5px">Ninjas</p>
+                            <p style="font-size:80%;margin-bottom:5px">(10 W -3L)</p>
+                            <span class="add-1" onclick="buya(0)" id="posta" style="font-size: 250%;">314</span>
+                        </div>
+                        <div class="match-mid">
+                            <p style="font-size:160%;margin-bottom:70px;margin-top:-50px">VS</p>
+                            <p style="font-size:80%;margin-bottom:20px;">0:13 remaining<br>
+                            5th period</p>
+                        </div>
+                        <div class="team-right">
+                            <img src="images/ns-pirates.png" alt="Pirates" style="width:100px;height:100px;">
+                            <p>Nova Scotia</p>
+                            <p style="font-size: 200%;margin-bottom:5px">Pirates</p>
+                            <p style="font-size:80%;margin-bottom:5px">(12 W -2 L)</p>
+                            <span class="add" onclick="buy(0)" id="post" style="font-size: 250%;">159</span>
+                        </div>
+                    </div>
+                    <hr style="margin: 20px;">
+                    <p style="font-size: 90%;margin-left:25px;">A conservative match between the two top-performing<br>
+                        sides in the Central League Division with a number 1<br>
+                        seed at stake...
+                    <a  style="font-size:90%;" href="#">get live updates</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

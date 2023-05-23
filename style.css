@@ -1,0 +1,155 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 960px;
+    height: 560px;
+    background-color:rgb(214, 212, 212) ;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.top-nav{
+    width: 960px;   
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-scores-left-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.top-scores-left-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.top-scores-right-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.top-scores-right-2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.bottom-nav{
+    width: 960px; 
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.sports-fields{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.sports-fields span{
+    margin-right: 20px;
+}
+
+.main{
+display: flex;
+}
+
+.add, .add-1{   
+    cursor: pointer;   
+}
+
+
+.left-side{
+    width: 200px;
+    height: 175px;
+    background-color: white;    
+    border-radius: 15px;  
+    margin: 20px;
+}
+
+.col-top-stories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-side p{
+    text-align:left;
+    margin: 6px;
+}
+
+.bottom-items-1{    
+    width: 200px;
+    height: 75px;
+    background-color: white;    
+    border-radius: 15px;     
+}
+
+.bottom-items-2{    
+    width: 200px;
+    height: 75px;
+    background-color: white;    
+    border-radius: 15px;   
+    margin-top: 20px;  
+}
+
+.team-matchup{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 385px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;  
+    margin: 20px;
+}
+
+.match-lead{
+    display: flex;    
+    justify-content: center;
+    margin: 20px;
+}
+
+.team-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 20px; */
+}
+
+.match-mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 20px; */
+}
+
+.team-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 20px; */
+}
+
+.group-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
